@@ -18,39 +18,39 @@ class student implements ActionListener{
         ta=new JTextArea();
         ta.setBounds(30,300,430,200);
         t1.setBounds(150,30,200,25);
-        //f.add(t1);
+        
         t2=new JTextField();
         t2.setBounds(150,70,200,25);
-        //f.add(t2);
+        
         t3=new JTextField();
         t3.setBounds(150,110,200,25);
-        //f.add(t3);
+        
         t4=new JTextField();
         t4.setBounds(150,150,200,25);
-       // f.add(t4);
+       
         l1=new JLabel("roll no");
         l1.setBounds(30,30,100,25);
-       // f.add(l1);
+       
         l2=new JLabel("name");
 
         l2.setBounds(30,70,100,25);
-       // f.add(l2);
+       
         l3=new JLabel("Age:");
         l3.setBounds(30,110,100,25);
-       // f.add(l3);
+       
         l4=new JLabel("CGPA:");
         l4.setBounds(30,150,100,25);
-       // f.add(l4);
+       
         b1=new JButton("ADD");
         b1.setBounds(30,200,80,25); 
-       // f.add(b1);
+       
         b2=new JButton("Delete");
         b2.setBounds(120,200,80,25);
-       // f.add(b2);
+       
         b3=new JButton("Search");
         b3.setBounds(210,200,80,25);
-        //l5
-       // f.add(b3);
+        
+    
         f.add(l1);
         f.add(t1);
         f.add(l2);
